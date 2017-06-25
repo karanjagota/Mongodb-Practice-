@@ -23,5 +23,5 @@ def add_document(db):
 if __name__ == "__main__":
     my_db = create_db
     add_document(my_db)
-    print(get_db.collection.find_all())
+    print(get_db(my_db).collection.find_all())
    

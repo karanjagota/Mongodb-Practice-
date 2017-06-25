@@ -11,7 +11,7 @@ def create_db():
     db = client.my_database
     return db
 
-def add_row(db):
+def add_document(db):
     document_json = {}
     document_json['name'] = "karan"
     document_json['number'] = 123456789

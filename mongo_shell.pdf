@@ -1,0 +1,19 @@
+5 Basic Mongodb Shell Commands 
+
+1. show dbs 
+
+2. use my_database_name
+
+3. my_database_name.collection_name.find_all()
+
+4. use my_database_name
+   db.dropDatabse()
+
+5. use my_database_name
+   show collections
+   db.getCollectionNames() 
+
+6. use my_data_base_name
+   # getting document from db collection by condition (here, its greater than )
+   db.collection.find( { 'key': { $gt: 10 } } )
+
